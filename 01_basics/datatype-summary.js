@@ -32,3 +32,27 @@ const myFunction=function (){
 }
 
 console.log(typeof myFunction);
+
+
+//+++++++++++++++++++++++++++++++++++++++++
+//memory(stack[primitive], Heap[non-Primitive])
+
+let myYoutubeName = "joydebYoutube"
+let onotherYoutube = myYoutubeName
+
+onotherYoutube = "youtube"
+
+console.log(onotherYoutube);
+console.log(myYoutubeName);
+
+let userOne = {
+    email : "joydeb@gmail.com",
+    uid : "user@ibl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "joydeb@81"
+console.log(userOne.email);
+console.log(userTwo.email);
+ 
