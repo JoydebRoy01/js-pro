@@ -29,12 +29,28 @@ const obj3 = {...obj1, ...obj2} //splate operator
 // console.log(obj3);
 
 // users[1].email
-console.log(InstaUser);
+// console.log(InstaUser);
 
-console.log(Object.keys(InstaUser));
-console.log(Object.values(InstaUser));
-console.log(Object.entries(InstaUser));
+// console.log(Object.keys(InstaUser));
+// console.log(Object.values(InstaUser));
+// console.log(Object.entries(InstaUser));
 
-console.log(InstaUser.hasOwnProperty('isLoggedIn'));
+// console.log(InstaUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    Course: "Js",
+    fees:"999"
+}
+
+const {fees : f} = course //short the name fees to f (destructure)
+console.log(f);
+
+// { 
+//     name :"joydeb",
+//     courseName : "js",
+// }
+
+
 
 
