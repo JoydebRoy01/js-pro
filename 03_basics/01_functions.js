@@ -32,10 +32,44 @@ function loginUserMessage(username){
         console.log("Please Enter a username");
         return
     }
-    return `${username} just logged in `
+    return `${username} just logged in`
 }
 // console.log(loginUserMessage("joyded"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+
+function calculateCartPrice(...num1) //...(rest operator)
+{
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500));
+
+const user = {
+    username: "joydeb",
+    price: 199
+}
+
+function handeleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+// handeleObject(user)
+
+handeleObject({
+    username:"Ram",
+    price:399
+})
+
+const myNewArray = [200,300,400,500]
+function returnSecondValue (getArray){
+    return getArray[1]
+
+}
+ console.log(returnSecondValue(myNewArray));
+ 
+ 
 
 
 
